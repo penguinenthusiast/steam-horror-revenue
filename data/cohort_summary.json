@@ -1,0 +1,165 @@
+{
+  "snapshot_date": "2026-09-12",
+  "last_ingest_finished_at": "2026-09-13T03:59:14.935795+00:00",
+  "games_in_cohort": 2586,
+  "paid_games": 2329,
+  "f2p_or_unpriced": 257,
+  "est_total_revenue": 2335953690.0,
+  "est_total_revenue_fmt": "$2.34B",
+  "est_median_revenue": 51975.0,
+  "est_median_revenue_fmt": "$52.0K",
+  "top_10pct_revenue_share_pct": 92.6088483372288,
+  "tier_mix": {
+    "indie": 2556,
+    "aaa": 25,
+    "mid": 5
+  },
+  "releases_by_year": {
+    "2020": 252,
+    "2021": 304,
+    "2022": 350,
+    "2023": 444,
+    "2024": 849,
+    "2025": 367,
+    "2026": 20
+  },
+  "pct_on_sale": 6.573859242072699,
+  "top_15_by_est_revenue": [
+    {
+      "name": "Resident Evil 4",
+      "release_date": "2023-03-23",
+      "tier": "aaa",
+      "price_initial": 39.99,
+      "owners_est": 7500000,
+      "est_revenue": 209947500.0,
+      "est_revenue_fmt": "$209.95M"
+    },
+    {
+      "name": "Phasmophobia",
+      "release_date": "2020-09-18",
+      "tier": "aaa",
+      "price_initial": 19.99,
+      "owners_est": 15000000,
+      "est_revenue": 209895000.0,
+      "est_revenue_fmt": "$209.90M"
+    },
+    {
+      "name": "R.E.P.O.",
+      "release_date": "2025-02-26",
+      "tier": "aaa",
+      "price_initial": 9.99,
+      "owners_est": 15000000,
+      "est_revenue": 104895000.0,
+      "est_revenue_fmt": "$104.89M"
+    },
+    {
+      "name": "Lethal Company",
+      "release_date": "2023-10-23",
+      "tier": "aaa",
+      "price_initial": 9.99,
+      "owners_est": 15000000,
+      "est_revenue": 104895000.0,
+      "est_revenue_fmt": "$104.89M"
+    },
+    {
+      "name": "Resident Evil Village",
+      "release_date": "2021-05-06",
+      "tier": "aaa",
+      "price_initial": 39.99,
+      "owners_est": 3500000,
+      "est_revenue": 97975500.0,
+      "est_revenue_fmt": "$97.98M"
+    },
+    {
+      "name": "The Outlast Trials",
+      "release_date": "2024-03-05",
+      "tier": "mid",
+      "price_initial": 39.99,
+      "owners_est": 3500000,
+      "est_revenue": 97975500.0,
+      "est_revenue_fmt": "$97.98M"
+    },
+    {
+      "name": "Warhammer 40,000: Darktide",
+      "release_date": "2022-11-30",
+      "tier": "aaa",
+      "price_initial": 39.99,
+      "owners_est": 3500000,
+      "est_revenue": 97975500.0,
+      "est_revenue_fmt": "$97.98M"
+    },
+    {
+      "name": "Resident Evil 3",
+      "release_date": "2020-04-02",
+      "tier": "aaa",
+      "price_initial": 39.99,
+      "owners_est": 3500000,
+      "est_revenue": 97975500.0,
+      "est_revenue_fmt": "$97.98M"
+    },
+    {
+      "name": "GTFO",
+      "release_date": "2021-12-09",
+      "tier": "mid",
+      "price_initial": 39.99,
+      "owners_est": 3500000,
+      "est_revenue": 97975500.0,
+      "est_revenue_fmt": "$97.98M"
+    },
+    {
+      "name": "Atomic Heart",
+      "release_date": "2023-02-20",
+      "tier": "aaa",
+      "price_initial": 59.99,
+      "owners_est": 1500000,
+      "est_revenue": 62989499.99999999,
+      "est_revenue_fmt": "$62.99M"
+    },
+    {
+      "name": "The Callisto Protocol\u2122",
+      "release_date": "2022-12-01",
+      "tier": "aaa",
+      "price_initial": 59.99,
+      "owners_est": 1500000,
+      "est_revenue": 62989499.99999999,
+      "est_revenue_fmt": "$62.99M"
+    },
+    {
+      "name": "Scorn",
+      "release_date": "2022-10-14",
+      "tier": "indie",
+      "price_initial": 49.99,
+      "owners_est": 1500000,
+      "est_revenue": 52489500.0,
+      "est_revenue_fmt": "$52.49M"
+    },
+    {
+      "name": "Five Nights at Freddy's: Security Breach",
+      "release_date": "2021-12-16",
+      "tier": "mid",
+      "price_initial": 39.99,
+      "owners_est": 1500000,
+      "est_revenue": 41989500.0,
+      "est_revenue_fmt": "$41.99M"
+    },
+    {
+      "name": "Content Warning",
+      "release_date": "2024-04-01",
+      "tier": "aaa",
+      "price_initial": 7.99,
+      "owners_est": 7500000,
+      "est_revenue": 41947500.0,
+      "est_revenue_fmt": "$41.95M"
+    },
+    {
+      "name": "SILENT HILL 2",
+      "release_date": "2024-10-07",
+      "tier": "aaa",
+      "price_initial": 69.99,
+      "owners_est": 750000,
+      "est_revenue": 36744749.99999999,
+      "est_revenue_fmt": "$36.74M"
+    }
+  ],
+  "model_version": "v1.0.0"
+}

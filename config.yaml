@@ -1,0 +1,84 @@
+cohort:
+  # SteamSpy tag used for discovery
+  steamspy_tag: Horror
+  # Only games released on or after this date (inclusive)
+  release_date_min: "2020-01-01"
+  # Keep games if Steam Store genres include Horror, OR Horror ranks in the
+  # top N SteamSpy community tags by vote count (filters weakly tagged hits).
+  require_horror_signal: true
+  horror_tag_max_rank: 3
+  # Horror votes must be at least this fraction of the top tag's votes
+  horror_tag_min_vote_ratio: 0.35
+  # Extra horror-related tags shown as dashboard subtag filters when present
+  subtags:
+    - Psychological Horror
+    - Survival Horror
+    - Lovecraftian
+    - Jump Scare
+    - Gore
+
+model:
+  version: "v1.0.0"
+  # owners ≈ total_reviews * review_multiplier when SteamSpy range missing
+  review_multiplier: 40
+  # Approximate developer share after Steam platform cut
+  net_revenue_factor: 0.70
+  # ± fraction applied to review-proxy owner estimates for low/high band
+  review_proxy_uncertainty: 0.50
+  # Indie tier: not on major publisher list AND total reviews below this
+  indie_max_reviews: 50000
+  # AAA: on major publisher list OR reviews at/above this
+  aaa_min_reviews: 100000
+
+rate_limits:
+  steamspy_requests_per_second: 1.0
+  steam_store_requests_per_second: 1.0
+  steam_store_batch_pause_seconds: 1.0
+
+paths:
+  database: data/horror_index.sqlite3
+  cache_dir: data/cache
+
+# Normalized lowercase substrings matched against publisher names
+major_publishers:
+  - electronic arts
+  - ea games
+  - ubisoft
+  - take-two
+  - take2
+  - 2k
+  - rockstar
+  - activision
+  - blizzard
+  - bethesda
+  - xbox game studios
+  - microsoft studios
+  - microsoft
+  - playstation
+  - sony interactive
+  - nintendo
+  - square enix
+  - capcom
+  - bandai namco
+  - namco
+  - sega
+  - warner bros
+  - warner brothers
+  - netflix
+  - thq nordic
+  - embracer
+  - krafton
+  - tencent
+  - netease
+  - focus entertainment
+  - focus home
+  - private division
+  - dejavu
+  - deep silver
+  - Koch Media
+  - koch media
+  - atlas
+  - konami
+  - nexon
+  - epic games
+  - valve
